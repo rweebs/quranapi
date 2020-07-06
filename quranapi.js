@@ -1,4 +1,4 @@
-fetch('http://api.alquran.cloud/v1/surah/2?offset=0&limit=5')
+fetch('https://api.alquran.cloud/v1/surah/2?offset=0&limit=5')
   .then(response => response.json())
   .then(data => {
     let output = '<h2>Surah Al-Baqarah Verse 1-5</h2>';
